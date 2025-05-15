@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class P6_swaptwonumber {
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        System.out.println("enter of the value A ");
+        int a = sc.nextInt();
+        System.out.println("enter of the value B");
+        int b = sc.nextInt();
+      int c=a;
+        a=b;
+        b=c;
+        System.out.println("the changing of the value a "+a+" and b will be "+b);
+    }
+}
